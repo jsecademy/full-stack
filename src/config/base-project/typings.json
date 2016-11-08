@@ -16,7 +16,6 @@
         "mongoose": "registry:dt/mongoose#4.5.9+20160826204928",
         "morgan": "registry:dt/morgan#1.7.0+20160524142355",
         "node": "registry:dt/node#6.0.0+20160830141956",
-        "rx": "npm:rx/ts/rx.all.d.ts",
         "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
     }
 }
