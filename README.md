@@ -36,4 +36,4 @@ full-stack init myProjectName
 
 If you are completely new to the MEAN Stack it might be a bit frustrating trying to understand how all of this pieces are put together. I have created a FREE 20-day email course that walks you through the entire stack in just 1 message per day for 20 days.
 
-## [MEAN Stack 2.0 Email Course](https://list.codewithintent.com/full-stack?list=codewithintent&source=github-email-course&form=28&dest=full-stack-confirm)
+## [MEAN Stack 2 Email Course](https://list.codewithintent.com/full-stack?list=codewithintent&source=github-email-course&form=28&dest=full-stack-confirm)
