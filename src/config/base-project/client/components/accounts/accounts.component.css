@@ -1,0 +1,41 @@
+.accounts {
+    width: 1400px;
+    padding: 20px;
+    margin: 48px;
+}
+
+.accounts p {
+    font-size: 55px;
+}
+
+table {
+    font-size: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table>tbody>tr>td,
+table>tbody>tr>th,
+table>tfoot>tr>td,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>thead>tr>th {
+    padding: 9px;
+    line-height: 1.4;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-button {
+    padding: 10px;
+}
+
+.my-button:hover {
+    cursor: pointer;
+    padding: 10px;
+}

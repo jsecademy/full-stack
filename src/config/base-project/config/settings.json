@@ -1,0 +1,13 @@
+{
+    "database": {
+        "port": 27017,
+        "name": "myapp"
+    },
+    "server": {
+        "port": 4000,
+        "proxy": "/api"
+    },
+    "client": {
+        "port": 3000
+    }
+}

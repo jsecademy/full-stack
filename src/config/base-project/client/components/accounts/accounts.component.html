@@ -1,0 +1,24 @@
+<div class="accounts box-wrapper">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Account Number</th>
+            <th>Balance</th>
+            <th>Created</th>
+            <th>Full Name</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let account of accounts; let i = index; trackBy: account">
+            <td>{{account._id}}</td>
+            <td>{{account.accountNumber}}</td>
+            <td>${{account.balance}}</td>
+            <td>{{account.created | date:'M/d/y h:m:s a'}}</td>
+            <td>{{account.name.first}} {{account.name.last}}</td>
+            <td><button (click)="read(i)" class="my-button">Read</button> <button (click)="update(i)" class="my-button">Update</button> <button (click)="delete(i)" class="my-button">Delete</button></td>
+        </tr>
+    </table>
+    <div class="min-menu">
+        <div class="item" (click)="create()">Create New Account</div>
+        <div class="item" routerLink="/">Return to Menu</div>
+    </div>
+</div>

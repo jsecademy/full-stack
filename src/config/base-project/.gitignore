@@ -1,0 +1,7 @@
+.vscode/
+build/
+typings/
+node_modules/
+.DS*
+._.*
+npm-debug.log

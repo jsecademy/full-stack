@@ -1,0 +1,7 @@
+<p>
+    <% if(typeof data !== 'undefined') { %>
+        <pre style="font-family: Courier;background: #f4f4f4;border: solid 1px #e1e1e1;float: left;width: auto;">
+            <%=  '\n'  + JSON.stringify(data, null, 2).replace('[', '').replace(']', '')%>
+        </pre>
+    <% } %>
+</p>

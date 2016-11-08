@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <h1><%= title %></h1>
+    <% if(typeof partial !== 'undefined') { %>
+        <%- include(partial) %>
+    <% } %>
+    <% if(typeof account !== 'undefined') { %>
+      <h3>Last Viewed Account</h3>
+      <p>Account Number: <%= account.account %></p>
+      <p>Account Name: <%= account.name %> <%= account.lastName %></p>
+      <p>Account Balance: $<%= account.balance %></p>
+    <% } %>
+</body>
+</html>

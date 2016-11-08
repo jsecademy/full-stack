@@ -1,0 +1,66 @@
+<div *ngIf="account" class="account box-wrapper">
+    <p><b>Id:</b> {{account._id}}</p>
+    <p><b>Created:</b> {{account.created | date:'M/d/y h:m:s a'}}</p>
+    <p><b>Full Name:</b> {{account.name.first}} {{account.name.last}}</p>
+    <p><b>Account Number:</b> {{account.accountNumber}}</p>
+    <p><b>Balance:</b> ${{account.balance}}</p>
+    <div class="item" routerLink="/accounts">Return to Accounts</div>
+</div>
+
+<div *ngIf="lastViewed" class="account box-wrapper">
+    <h5>Last Viewed Account</h5>
+    <p><b>Id:</b> {{lastViewed._id}}</p>
+    <p><b>Created:</b> {{lastViewed.created | date:'M/d/y h:m:s a'}}</p>
+    <p><b>Full Name:</b> {{lastViewed.name.first}} {{lastViewed.name.last}}</p>
+    <p><b>Account Number:</b> {{lastViewed.accountNumber}}</p>
+    <p><b>Balance:</b> ${{lastViewed.balance}}</p>
+    <div class="item" routerLink="/">Return to Menu</div>
+</div>
+
+<div *ngIf="newAccount" class="account box-wrapper">
+    <h5>New Account</h5>
+    <form (ngSubmit)="onSubmit()" #accountForm="ngForm">
+        <div class="form-item">
+            <label for="account-number">Account Number:</label>
+            <input type="text" name="account-number" placeholder="######" required [(ngModel)]="newAccount.accountNumber">
+        </div>
+        <div class="form-item">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" required [(ngModel)]="newAccount.name.first">
+        </div>
+        <div class="form-item">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" required [(ngModel)]="newAccount.name.last">
+        </div>
+        <div class="form-item">
+            <label for="balance">Balance:</label>
+            <input type="text" placeholder="$947.85" name="balance" required [(ngModel)]="newAccount.balance">
+        </div>
+        <div class="form-item">
+            <button class="item" type="submit" [disabled]="!accountForm.form.valid">Create Account</button>
+        </div>
+    </form>
+    <div class="item" routerLink="/">Return to Menu</div>
+</div>
+
+<div *ngIf="updateAccount" class="account box-wrapper">
+    <h5>New Account</h5>
+    <form (ngSubmit)="onUpdate()" #accountForm="ngForm">
+        <div class="form-item">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" required [(ngModel)]="updateAccount.name.first">
+        </div>
+        <div class="form-item">
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" required [(ngModel)]="updateAccount.name.last">
+        </div>
+        <div class="form-item">
+            <label for="balance">Balance:</label>
+            <input type="text" placeholder="$947.85" name="balance" required [(ngModel)]="updateAccount.balance">
+        </div>
+        <div class="form-item">
+            <button type="submit" class="item" [disabled]="!accountForm.form.valid">Update Account</button>
+        </div>
+    </form>
+    <div class="item" routerLink="/accounts">Return to Accounts</div>
+</div>

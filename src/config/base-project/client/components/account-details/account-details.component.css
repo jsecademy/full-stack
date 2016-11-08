@@ -1,0 +1,43 @@
+.account {
+    width: 550px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+.account p {
+    text-align: left;
+    font-size: 30px;
+}
+
+.form-item {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 2em;
+}
+
+.item {
+    border: none;
+}
+
+.item:disabled {
+    color: gray !important;
+    cursor: not-allowed !important;
+}
+
+input:focus {
+    outline: none;
+}
