@@ -1,4 +1,4 @@
-# Scaffold your project is seconds using the MEAN Stack
+# Scaffold your project in seconds using the MEAN Stack
 
 ## This project is made possible thanks to all of the supporters that are moving their career forward with the [MEAN Stack 2 [Node.js, Express, MongoDB, Angular 2]](https://www.learnmean.com/?s==github&o=mean-stack).
 
