@@ -2,7 +2,7 @@
 
 ## This project is made possible thanks to all of the supporters that are moving their career forward with the [MEAN Stack 2 [Node.js, Express, MongoDB, Angular 2]](https://www.learnmean.com/?s==github&o=mean-stack).
 
-<img src="https://media.giphy.com/media/3o7TKLSiRhNnyo6yWs/source.gif" />
+![Full Stack](https://github.com/jsecademy/full-stack/raw/master/full-stack.gif)
 
 To all of you, that have no one on your team...
 
