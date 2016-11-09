@@ -32,7 +32,7 @@ But more than just a practice, this project stand behinds even stronger values.
 ### Getting Started
 
 ```
-npm install full-stack -g
+sudo npm install full-stack -g
 full-stack init myProjectName
 ```
 
