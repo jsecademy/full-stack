@@ -21,7 +21,7 @@ This project strongly believes in the Agile Software Development practices.
 * **Customer collaboration** over contract negotiation
 * **Responding to change** over following a plan
 
-But more than just a practice, this project stand behinds even stronger values.
+But more than just a practice, this project stands behind even stronger values.
 
 * This project is safe, meets specifications, passes appropriate tests, and does not diminish the quality of life or diminish privacy.
 * The ultimate effect of this project is to do the public good
