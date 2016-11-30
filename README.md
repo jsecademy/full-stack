@@ -1,6 +1,6 @@
 # Scaffold your project in seconds using the MEAN Stack
 
-## This project is made possible thanks to all of the supporters that are moving their career forward with the [MEAN Stack 2 [Node.js, Express, MongoDB, Angular 2]](https://www.learnmean.com/?s==github&o=mean-stack).
+## This project is made possible thanks to all of the supporters that are moving their career forward with the [MEAN Stack 2 [Node.js, Express, MongoDB, Angular 2]](https://list.codewithintent.com/full-stack?list=codewithintent&source=github-email-course&form=28&dest=full-stack-confirm).
 
 ![Full Stack](https://github.com/jsecademy/full-stack/raw/master/full-stack.gif)
 
