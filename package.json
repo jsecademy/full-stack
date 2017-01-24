@@ -1,6 +1,6 @@
 {
   "name": "full-stack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Built for Entrepreneurs, Innovators, and Consultants. Scaffold a project in seconds using the MEAN Stack 2",
   "bin": {
     "full-stack": "./src/app.js"
